@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+g{
+    color: white;
+}
+
+svg {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+
+.dot:hover {
+    fill: white;
+}
+
+#title, #time {
+    fill: white;
+}
